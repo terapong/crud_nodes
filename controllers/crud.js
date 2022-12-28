@@ -29,7 +29,7 @@ exports.update = (req, res)=>{
 });
 
 //ELIMINAR un REGISTRO
-/*
+
 exports.delete = (req, res)=>{
     console.log(req.params.id)    ;
     console.log('LLEGAMOS A ELIMINAR');
@@ -41,5 +41,5 @@ exports.delete = (req, res)=>{
             res.redirect('/');         
         }
     }) 
-}*/
+}
 };
